@@ -2,13 +2,19 @@ import random
 import math
 
 class harmonic_piqmc:
+    # Constructor method to initialize the class with given parameters
     def __init__(self, N, parameters):
+        # Assigning values returned by the parameters function to class attributes
         self.warm_steps, self.MC_steps, self.dump_freq, self.delta, self.N, self.w, self.m = parameters(N)
+        
+        # Initializing lists to store states and correlations
         self.state = [random.random() - 0.5 for _ in range(self.N)]
         self.state_o = [0.0]*self.N
         self.state_n = [0.0]*self.N
         self.correlation = [0.0]*self.N
         self.correlation_2 = [0.0]*self.N
+
+        # Initializing variables to calculate mean values
         self.x2_mean = 0.0
         self.x_mean = 0.0
 
