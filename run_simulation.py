@@ -16,7 +16,7 @@ def parameters(N):
 # Starting simulation for different `N` values
 corln = []  # List to store correlations
 E = []      # List to store energies
-N_list = [4, 8]  # List of `N` values for simulations
+N_list = [8, 16, 32, 64]  # List of `N` values for simulations
 for N in N_list:
     # Initializing simulation with `harmonic_piqmc` class and parameters function
     simulation = harmonic_piqmc(N, parameters)
