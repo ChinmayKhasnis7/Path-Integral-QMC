@@ -1,3 +1,4 @@
+## Chinmay Khasanis
 # Importing necessary libraries and modules
 from PIQMC import harmonic_piqmc  # Importing the `harmonic_piqmc` class from the `PIQMC` module
 import matplotlib.pyplot as plt
