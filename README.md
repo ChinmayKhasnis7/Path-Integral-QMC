@@ -13,4 +13,10 @@ Now compute the  change in action $\Delta S_L=S_L\left(\hat{x}_i^{\prime}\right)
 ```math
 \Delta S_L=\frac{\hat{m}}{2} \sum_{i=0}^{N-1} \left[\left(\hat{x}_{i+1}-\hat{x}_i^{\prime}\right)^2 -\left(\hat{x}_{i+1}-\hat{x}_i\right)^2+\frac{\hat{\omega}^2}{4}\left(\left(\hat{x}_{i+1}+\hat{x}_i^{\prime}\right)^2- \left(\hat{x}_{i+1}+\hat{x}_i\right)^2\right)\right]
 ```
-
+Transition probability $W\left(\hat{x}_i \rightarrow \hat{x}_i^{\prime}\right)$,
+```math
+W=\left\{\begin{array}{ll}
+1, & \Delta S_L<0 \\
+e^{-\Delta S_L}, & \Delta S_L \geqslant 0
+\end{array}\right.
+```
