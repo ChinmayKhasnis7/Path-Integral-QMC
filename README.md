@@ -20,3 +20,7 @@ W=\left\{\begin{array}{ll}
 e^{-\Delta S_L}, & \Delta S_L \geqslant 0
 \end{array}\right.
 ```
+
+# References
+1. Joseph, Anosh. Markov chain monte carlo methods in quantum field theories: A modern primer. Springer Nature, 2020.
+2. Rosenfelder, Roland. "Path integrals in quantum physics." arXiv preprint arXiv:1209.1315 (2012).
